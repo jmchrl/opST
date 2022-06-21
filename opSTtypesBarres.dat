@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+	<!-- Pour les longueurs de flambement et de deversement (lgfz, lgfy et ldfz), indiquer coef suivi d un coefficient ou la longueur reelle -->
+	
+	<!-- Pour les barres, indiquer la liste des barres separees d une virgule ou * si toutes les barres sont concernees -->
+	
+	<!-- courbef = courbe de flambement en fonction du type de profil -->
+	
+	<!-- v_deversement = v_sup, v_inf ou "" si le profil est symétrique par rapport a l axe yy ;
+	     v_max et v_min correspondent a la valeur de v a prendre en compte pour le calcul de la contrainte de compression sur la semelle comprimee
+		 afin de verifier la sensibilite au deversement -->
+
+	<type id="chevron" barres="*" lgfz="coef1.00" lgfy="coef1.00" courbef='c' ldfz="coef1.00" v_deversement="v_min" />
+</data>

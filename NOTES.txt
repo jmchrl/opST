@@ -1,0 +1,5 @@
+Aide à la modélisation opST
+
+Pour la vérification simplifiée du déversement prévoir 1 noeud sur la barre au droit de chaque maintien latéral
+
+Pour la creation de section type PRS, les 3 premieres lettes du nom du profile doivent etre PRS
